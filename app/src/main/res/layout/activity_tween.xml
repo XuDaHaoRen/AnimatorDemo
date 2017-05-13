@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tween_translation_xml_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我使用xml定义的移动动画"
+            />
+        <TextView
+            android:id="@+id/tween_translation_java_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用java位文件定义的动画"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            > <ImageView
+            android:id="@+id/tween_scale_xml_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heart"
+            />
+            <ImageView
+                android:id="@+id/tween_scale_java_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/heart"
+                /></LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           ><ImageView
+           android:id="@+id/tween_rotate_xml_iv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/fan"
+           />
+           <ImageView
+               android:id="@+id/tween_rotate_java_iv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/fan"
+               /></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/tween_alpha_xml_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/posion"/>
+            <ImageView
+                android:id="@+id/tween_alpha_java_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/posion"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tween_set_xml_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deer"/>
+        <ImageView
+            android:id="@+id/tween_set_java_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deer"/>
+
+        <Button
+            android:onClick="tweenStartOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始动画"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>
